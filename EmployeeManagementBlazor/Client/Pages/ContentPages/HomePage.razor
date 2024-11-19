@@ -1,0 +1,44 @@
+﻿@page "/home/dashboard"
+@layout MainLayout
+@using Client.Pages.AdministrationPages
+@using Client.Pages.ContentPages.DepartmentPages
+
+<TableBanner />
+<GeneralDepartmentPage />
+
+@inject NavigationManager NavManager
+
+@code {
+    [CascadingParameter] public Task<AuthenticationState>? AuthenticationState { get; set; }
+
+    protected async override Task OnInitializedAsync()
+    {
+        await CheckUserAuthentication();
+    }
+
+    private async Task CheckUserAuthentication()
+    {
+        if (AuthenticationState != null)
+        {
+            var authState = await AuthenticationState;
+            var user = authState.User;
+
+            // Safely check if Identity and User are not null
+            if (user?.Identity != null && user.Identity.IsAuthenticated)
+            {
+                // User is authenticated, stay on the dashboard
+            }
+            else
+            {
+                // Redirect to login page if user is not authenticated
+                NavManager.NavigateTo("/identity/account/login");
+            }
+        }
+        else
+        {
+            // Handle case where AuthenticationState is null
+            Console.WriteLine("AuthenticationState is null. Redirecting to login.");
+            NavManager.NavigateTo("/identity/account/login");
+        }
+    }
+}

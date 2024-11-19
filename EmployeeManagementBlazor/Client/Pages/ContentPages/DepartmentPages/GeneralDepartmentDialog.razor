@@ -1,0 +1,67 @@
+﻿@using BaseLibrary.Entities
+<!-- Bootstrap Modal HTML -->
+<div class="modal fade @(isModalVisible ? "show d-block" : "")" tabindex="-1" aria-labelledby="departmentModalLabel" aria-hidden="@(isModalVisible ? "false" : "true")" style="@(isModalVisible ? "display:block;" : "display:none;")">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="departmentModalLabel">@Title Department</h5>
+                <button type="button" class="btn-close" @onclick="CloseDialog" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <EditForm Model="GeneralDepartment" OnValidSubmit="Save">
+                    <DataAnnotationsValidator />
+                    <div class="form-group">
+                        <label class="form-label">Name</label>
+                        <InputText @bind-Value="GeneralDepartment.Name" class="form-control" />
+@*                         <ValidationMessage For="() => Department.Name" class="text-danger" /> *@
+                    </div>
+                    <ValidationSummary />
+                    <div class="form-group mt-2 float-end">
+                        <button type="submit" class="btn btn-primary">Save</button>
+                        <button type="button" class="btn btn-secondary" @onclick="CloseDialog">Close</button>
+                    </div>
+                </EditForm>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@code {
+    private bool isModalVisible = false;
+
+    [Parameter] public GeneralDepartment GeneralDepartment { get; set; } = new();
+    [Parameter] public EventCallback<GeneralDepartment> HandleSaveOperationEvent { get; set; }
+    public string Title { get; set; } = "Add";
+
+    // Method to open the modal
+    public void OpenDialog()
+    {
+        isModalVisible = true;
+        StateHasChanged(); 
+    }
+
+    // Method to close the modal
+    public void CloseDialog()
+    {
+        isModalVisible = false;
+        StateHasChanged(); 
+    }
+
+    async void Save()
+    {
+        if (string.IsNullOrWhiteSpace(GeneralDepartment.Name))
+        {
+            Console.WriteLine("GeneralDepartment name is required.");
+        }
+        else
+        {
+            await HandleSaveOperationEvent.InvokeAsync(GeneralDepartment);
+        }
+    }
+
+    public void ChangeTitle(string title)
+    {
+        Title = title;
+    }
+}

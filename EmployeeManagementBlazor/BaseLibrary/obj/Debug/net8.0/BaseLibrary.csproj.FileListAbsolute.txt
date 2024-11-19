@@ -1,0 +1,12 @@
+C:\Users\SIT307 .SIT\Desktop\Lerning\Blazor\EmployeeManagementBlazor\BaseLibrary\bin\Debug\net8.0\BaseLibrary.deps.json
+C:\Users\SIT307 .SIT\Desktop\Lerning\Blazor\EmployeeManagementBlazor\BaseLibrary\bin\Debug\net8.0\BaseLibrary.dll
+C:\Users\SIT307 .SIT\Desktop\Lerning\Blazor\EmployeeManagementBlazor\BaseLibrary\bin\Debug\net8.0\BaseLibrary.pdb
+C:\Users\SIT307 .SIT\Desktop\Lerning\Blazor\EmployeeManagementBlazor\BaseLibrary\obj\Debug\net8.0\BaseLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SIT307 .SIT\Desktop\Lerning\Blazor\EmployeeManagementBlazor\BaseLibrary\obj\Debug\net8.0\BaseLibrary.AssemblyInfoInputs.cache
+C:\Users\SIT307 .SIT\Desktop\Lerning\Blazor\EmployeeManagementBlazor\BaseLibrary\obj\Debug\net8.0\BaseLibrary.AssemblyInfo.cs
+C:\Users\SIT307 .SIT\Desktop\Lerning\Blazor\EmployeeManagementBlazor\BaseLibrary\obj\Debug\net8.0\BaseLibrary.csproj.CoreCompileInputs.cache
+C:\Users\SIT307 .SIT\Desktop\Lerning\Blazor\EmployeeManagementBlazor\BaseLibrary\obj\Debug\net8.0\BaseLibrary.dll
+C:\Users\SIT307 .SIT\Desktop\Lerning\Blazor\EmployeeManagementBlazor\BaseLibrary\obj\Debug\net8.0\refint\BaseLibrary.dll
+C:\Users\SIT307 .SIT\Desktop\Lerning\Blazor\EmployeeManagementBlazor\BaseLibrary\obj\Debug\net8.0\BaseLibrary.pdb
+C:\Users\SIT307 .SIT\Desktop\Lerning\Blazor\EmployeeManagementBlazor\BaseLibrary\obj\Debug\net8.0\ref\BaseLibrary.dll
+C:\Users\SIT307 .SIT\Desktop\Lerning\Blazor\EmployeeManagementBlazor\BaseLibrary\obj\Debug\net8.0\BaseLibrary.csproj.AssemblyReference.cache

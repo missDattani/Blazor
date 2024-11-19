@@ -1,0 +1,29 @@
+﻿@using System.Net.Http
+@using System.Net.Http.Json
+@using BaseLibrary.Entities
+@using Client.ApplicationState
+@using ClientLibrary.Services.Contracts
+@using Microsoft.AspNetCore.Components.Forms
+@using Microsoft.AspNetCore.Components.Routing
+@using Microsoft.AspNetCore.Components.Web
+@using Microsoft.AspNetCore.Components.Web.Virtualization
+@using Microsoft.AspNetCore.Components.WebAssembly.Http
+@using Microsoft.JSInterop
+@using Client
+@using Client.Layout
+
+@using BaseLibrary.DTOs
+@using ClientLibrary.Helpers
+@using Microsoft.AspNetCore.Components.Authorization
+
+@inject IUserAccountService accountService
+@inject AuthenticationStateProvider AuthStateProvider
+@inject NavigationManager NavManager
+@inject IGenericInterfaceService<GeneralDepartment> generalDepartmentService
+@inject IGenericInterfaceService<Department> departmentService
+@inject IGenericInterfaceService<Branch> branchService
+@inject IGenericInterfaceService<Country> countryService
+@inject IGenericInterfaceService<City> cityService
+@inject IGenericInterfaceService<Town> townService
+@inject IGenericInterfaceService<Employee> employeeService
+@inject AllState allState

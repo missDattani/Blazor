@@ -1,0 +1,111 @@
+﻿@layout AuthenticationLayout
+@page "/identity/account/login"
+@using Client.Pages.CustomPages
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4">
+            <EditForm Model="User" OnValidSubmit="HandleLogin">
+                <DataAnnotationsValidator />
+
+                <div class="card bg-dark" style="opacity:0.5; margin-top:50%; border-radius:10px; color:white; font-weight:bold">
+                    <div class="card-header text-center fs-5 mb-1">
+                        Login
+                        <hr />
+                    </div>
+                    
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-4"> </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 justify-content-center bg-white" style="border-radius:20px">
+                                <img style="border-radius:20px" src="../Images/logos/LogoEMP.png" height="80" width="100" />
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group mt-3">
+                            <label class="form-label">Email</label>
+                            <InputText @bind-Value="User.Email" class="form-control"></InputText>
+                        </div>
+                        <div class="form-group mt-3">
+                            <label class="form-label">Password</label>
+                            <InputText @bind-Value="User.Password" type="password" class="form-control" />
+                        </div>
+                        <div class="form-group mt-3">
+                            @if (IsLoading)
+                            {
+                                <LoadingSpinner></LoadingSpinner>
+                            }
+                            else
+                            {                          
+                            <button class="btn btn-primary float-end" type="submit">Login</button>
+                            }
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <span class="text-center">
+                            Don't have an account?
+                            <a class="btn-link text-white" href="identity/account/register">Sign Up</a>
+                        </span>
+                        <ValidationSummary />
+                    </div>
+                </div>
+            </EditForm>
+        </div>
+        <div class="col-lg-4"></div>
+    </div>
+</div>
+
+@code {
+    public bool IsLoading { get; set; } = false;
+    Login User = new();
+    [CascadingParameter] public Task<AuthenticationState> AuthenticationState { get; set; }
+
+    protected async override Task OnInitializedAsync()
+    {
+        await CheckUserAuthentication();
+    }
+
+    async Task HandleLogin()
+    {
+        IsLoading = true;
+        var result = await accountService.LoginAsync(User);
+        if (result.Flag)
+        {
+            //await toastrService.Success(result.Message, "Login Success");
+            var customAuthStateProvider = (CustomAuthenticationStateProvider)AuthStateProvider;
+            await customAuthStateProvider.UpdateAuthenticationState(new UserSession() { Token = result.Token, RefreshToken = result.RefreshToken });
+            NavManager.NavigateTo("/");
+        }
+        else
+        {
+            //await toastrService.Success(result.Message, "Alert");
+        }
+        IsLoading = false;
+    }
+
+
+    private async Task CheckUserAuthentication()
+    {
+        if (AuthenticationState != null)
+        {
+            var authState = await AuthenticationState;
+            var user = authState.User;
+
+            // Safely check if Identity and User are not null
+            if (user?.Identity != null && user.Identity.IsAuthenticated)
+            {
+                // User is authenticated, stay on the dashboard
+            }
+            else
+            {
+                // Redirect to login page if user is not authenticated
+                NavManager.NavigateTo("/identity/account/login");
+            }
+        }
+        
+    }
+}

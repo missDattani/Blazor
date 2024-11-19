@@ -1,0 +1,162 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SIT307 .SIT\\Desktop\\Lerning\\Blazor\\EmployeeManagementBlazor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4BB25A59-2827-4C2D-BCA2-611DCE06F6E7}|ServerLibrary\\ServerLibrary.csproj|c:\\users\\sit307 .sit\\desktop\\lerning\\blazor\\employeemanagementblazor\\serverlibrary\\repositories\\implementations\\generaldepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BB25A59-2827-4C2D-BCA2-611DCE06F6E7}|ServerLibrary\\ServerLibrary.csproj|solutionrelative:serverlibrary\\repositories\\implementations\\generaldepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7E88D2E-44DB-49CA-90EC-E8E9E4882A7E}|Server\\Server.csproj|C:\\Users\\SIT307 .SIT\\Desktop\\Lerning\\Blazor\\EmployeeManagementBlazor\\server\\controllers\\genericcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7E88D2E-44DB-49CA-90EC-E8E9E4882A7E}|Server\\Server.csproj|solutionrelative:server\\controllers\\genericcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92FF573D-0253-42FF-A9DF-612DF8A956E0}|Client\\Client.csproj|C:\\Users\\SIT307 .SIT\\Desktop\\Lerning\\Blazor\\EmployeeManagementBlazor\\client\\pages\\contentpages\\departmentpages\\generaldepartmentpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92FF573D-0253-42FF-A9DF-612DF8A956E0}|Client\\Client.csproj|solutionrelative:client\\pages\\contentpages\\departmentpages\\generaldepartmentpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92FF573D-0253-42FF-A9DF-612DF8A956E0}|Client\\Client.csproj|C:\\Users\\SIT307 .SIT\\Desktop\\Lerning\\Blazor\\EmployeeManagementBlazor\\client\\pages\\accountpages\\loginpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92FF573D-0253-42FF-A9DF-612DF8A956E0}|Client\\Client.csproj|solutionrelative:client\\pages\\accountpages\\loginpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92FF573D-0253-42FF-A9DF-612DF8A956E0}|Client\\Client.csproj|C:\\Users\\SIT307 .SIT\\Desktop\\Lerning\\Blazor\\EmployeeManagementBlazor\\client\\pages\\accountpages\\registerpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92FF573D-0253-42FF-A9DF-612DF8A956E0}|Client\\Client.csproj|solutionrelative:client\\pages\\accountpages\\registerpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92FF573D-0253-42FF-A9DF-612DF8A956E0}|Client\\Client.csproj|C:\\Users\\SIT307 .SIT\\Desktop\\Lerning\\Blazor\\EmployeeManagementBlazor\\client\\pages\\contentpages\\homepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92FF573D-0253-42FF-A9DF-612DF8A956E0}|Client\\Client.csproj|solutionrelative:client\\pages\\contentpages\\homepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92FF573D-0253-42FF-A9DF-612DF8A956E0}|Client\\Client.csproj|C:\\Users\\SIT307 .SIT\\Desktop\\Lerning\\Blazor\\EmployeeManagementBlazor\\client\\pages\\contentpages\\departmentpages\\generaldepartmentdialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92FF573D-0253-42FF-A9DF-612DF8A956E0}|Client\\Client.csproj|solutionrelative:client\\pages\\contentpages\\departmentpages\\generaldepartmentdialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92FF573D-0253-42FF-A9DF-612DF8A956E0}|Client\\Client.csproj|C:\\Users\\SIT307 .SIT\\Desktop\\Lerning\\Blazor\\EmployeeManagementBlazor\\client\\applicationstate\\allstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92FF573D-0253-42FF-A9DF-612DF8A956E0}|Client\\Client.csproj|solutionrelative:client\\applicationstate\\allstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GenericController.cs",
+              "DocumentMoniker": "C:\\Users\\SIT307 .SIT\\Desktop\\Lerning\\Blazor\\EmployeeManagementBlazor\\Server\\Controllers\\GenericController.cs",
+              "RelativeDocumentMoniker": "Server\\Controllers\\GenericController.cs",
+              "ToolTip": "C:\\Users\\SIT307 .SIT\\Desktop\\Lerning\\Blazor\\EmployeeManagementBlazor\\Server\\Controllers\\GenericController.cs",
+              "RelativeToolTip": "Server\\Controllers\\GenericController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAgwCwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T11:49:12.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GeneralDepartmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\SIT307 .SIT\\Desktop\\Lerning\\Blazor\\EmployeeManagementBlazor\\ServerLibrary\\Repositories\\Implementations\\GeneralDepartmentRepository.cs",
+              "RelativeDocumentMoniker": "ServerLibrary\\Repositories\\Implementations\\GeneralDepartmentRepository.cs",
+              "ToolTip": "C:\\Users\\SIT307 .SIT\\Desktop\\Lerning\\Blazor\\EmployeeManagementBlazor\\ServerLibrary\\Repositories\\Implementations\\GeneralDepartmentRepository.cs",
+              "RelativeToolTip": "ServerLibrary\\Repositories\\Implementations\\GeneralDepartmentRepository.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAQwHoAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T12:03:22.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegisterPage.razor",
+              "DocumentMoniker": "C:\\Users\\SIT307 .SIT\\Desktop\\Lerning\\Blazor\\EmployeeManagementBlazor\\Client\\Pages\\AccountPages\\RegisterPage.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\AccountPages\\RegisterPage.razor",
+              "ToolTip": "C:\\Users\\SIT307 .SIT\\Desktop\\Lerning\\Blazor\\EmployeeManagementBlazor\\Client\\Pages\\AccountPages\\RegisterPage.razor",
+              "RelativeToolTip": "Client\\Pages\\AccountPages\\RegisterPage.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-24T11:53:44.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginPage.razor",
+              "DocumentMoniker": "C:\\Users\\SIT307 .SIT\\Desktop\\Lerning\\Blazor\\EmployeeManagementBlazor\\Client\\Pages\\AccountPages\\LoginPage.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\AccountPages\\LoginPage.razor",
+              "ToolTip": "C:\\Users\\SIT307 .SIT\\Desktop\\Lerning\\Blazor\\EmployeeManagementBlazor\\Client\\Pages\\AccountPages\\LoginPage.razor",
+              "RelativeToolTip": "Client\\Pages\\AccountPages\\LoginPage.razor",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAACcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-24T11:53:37.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomePage.razor",
+              "DocumentMoniker": "C:\\Users\\SIT307 .SIT\\Desktop\\Lerning\\Blazor\\EmployeeManagementBlazor\\Client\\Pages\\ContentPages\\HomePage.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\ContentPages\\HomePage.razor",
+              "ToolTip": "C:\\Users\\SIT307 .SIT\\Desktop\\Lerning\\Blazor\\EmployeeManagementBlazor\\Client\\Pages\\ContentPages\\HomePage.razor",
+              "RelativeToolTip": "Client\\Pages\\ContentPages\\HomePage.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-24T11:50:57.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AllState.cs",
+              "DocumentMoniker": "C:\\Users\\SIT307 .SIT\\Desktop\\Lerning\\Blazor\\EmployeeManagementBlazor\\Client\\ApplicationState\\AllState.cs",
+              "RelativeDocumentMoniker": "Client\\ApplicationState\\AllState.cs",
+              "ToolTip": "C:\\Users\\SIT307 .SIT\\Desktop\\Lerning\\Blazor\\EmployeeManagementBlazor\\Client\\ApplicationState\\AllState.cs",
+              "RelativeToolTip": "Client\\ApplicationState\\AllState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T11:23:03.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GeneralDepartmentPage.razor",
+              "DocumentMoniker": "C:\\Users\\SIT307 .SIT\\Desktop\\Lerning\\Blazor\\EmployeeManagementBlazor\\Client\\Pages\\ContentPages\\DepartmentPages\\GeneralDepartmentPage.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\ContentPages\\DepartmentPages\\GeneralDepartmentPage.razor",
+              "ToolTip": "C:\\Users\\SIT307 .SIT\\Desktop\\Lerning\\Blazor\\EmployeeManagementBlazor\\Client\\Pages\\ContentPages\\DepartmentPages\\GeneralDepartmentPage.razor",
+              "RelativeToolTip": "Client\\Pages\\ContentPages\\DepartmentPages\\GeneralDepartmentPage.razor",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAwwF8AAAB0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-24T11:21:48.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GeneralDepartmentDialog.razor",
+              "DocumentMoniker": "C:\\Users\\SIT307 .SIT\\Desktop\\Lerning\\Blazor\\EmployeeManagementBlazor\\Client\\Pages\\ContentPages\\DepartmentPages\\GeneralDepartmentDialog.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\ContentPages\\DepartmentPages\\GeneralDepartmentDialog.razor",
+              "ToolTip": "C:\\Users\\SIT307 .SIT\\Desktop\\Lerning\\Blazor\\EmployeeManagementBlazor\\Client\\Pages\\ContentPages\\DepartmentPages\\GeneralDepartmentDialog.razor",
+              "RelativeToolTip": "Client\\Pages\\ContentPages\\DepartmentPages\\GeneralDepartmentDialog.razor",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAD4AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-24T11:21:45.759Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
